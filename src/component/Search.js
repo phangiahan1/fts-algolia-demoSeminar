@@ -11,8 +11,6 @@ const searchClient = algoliasearch(
   "ae9103d10e61e753401f9d3f3f177c54"
 );
 
-console.log(searchClient)
-
 function Search() {
   return (
     <InstantSearch searchClient={searchClient} indexName="12">
